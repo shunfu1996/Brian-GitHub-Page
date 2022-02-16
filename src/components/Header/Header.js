@@ -4,7 +4,6 @@ export function Header () {
     let navigate = useNavigate();
     return(
         <>  
-            
             <Nav variant="pills" defaultActiveKey="/home" className='bar'>
                 <Nav.Item>
                     <Nav.Link onClick={() => {navigate("/home");}} className="test" > Home</Nav.Link>
@@ -15,11 +14,6 @@ export function Header () {
                 <Nav.Item>
                     <Nav.Link onClick={() => {navigate("/contact");}} className="test" >Contact me</Nav.Link>
                 </Nav.Item>
-                {/* <Nav.Item>
-                    <Nav.Link eventKey="disabled" disabled>
-                    Disabled
-                    </Nav.Link>
-                </Nav.Item> */}
             </Nav>
         </>
     )

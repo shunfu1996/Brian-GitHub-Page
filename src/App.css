@@ -2,6 +2,16 @@
   font-family: 'Lato', sans-serif;
 }
 
+.testb {
+}
+
+.testa {
+  background-color: #1f253d ;
+  color: #ffffff ;
+  font-size: 30px;
+  display:inline;
+}
+
 .home-text{
   font-size: 48px !important;
   padding-bottom: 180px ;
@@ -15,6 +25,14 @@
 .topic {
   padding: 150px 0px 140px 0px;
   margin: 0%;
+}
+
+.contact {
+  padding: 150px 0px 140px 0px;
+}
+
+.topic-project {
+  font-size: 48px
 }
 
 p {
@@ -33,6 +51,7 @@ h1,h2 {
 
 .test {
   color: #ffffff !important;
+  font-size: 30px;
 }
 
 .intro{

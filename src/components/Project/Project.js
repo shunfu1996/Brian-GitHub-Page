@@ -7,7 +7,7 @@ export function Project() {
     return (
         <>   
             <Header /> 
-            <p className="topic" >My Project</p>
+            <p className="topic-project" >My Project</p>
             <Row xs={2} md={3} className="g-5">
                 {data.map((project) => (
                     <Col>

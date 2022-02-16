@@ -63,7 +63,7 @@ export function Home (){
                         <Button variant="outline-info" onClick={() => {navigate("/project");}}  size="lg" className="home-text" > View My Project</Button>
                     </Col>
                     <Col>
-                    <Button variant="outline-info" onClick={() => {navigate("/project");}}  size="lg" className="home-text" > View My Contact</Button>
+                    <Button variant="outline-info" onClick={() => {navigate("/contact");}}  size="lg" className="home-text" > View My Contact</Button>
                     </Col>
                 </Row>
             </LightSpeed>
