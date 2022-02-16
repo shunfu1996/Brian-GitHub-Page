@@ -16,7 +16,7 @@ export function Project() {
                                 <Card.Img variant="top" src={project.img} className="img" />
                                 <div className="overlay" >
                                     <a className="show-page" href={project.link} target="_blank" >View Page</a>
-                                    <a className="show-code" href={project.link} target="_blank" >View Code</a>
+                                    <a className="show-code" href={project.code} target="_blank" >View Code</a>
                                 </div>
                             </div>
                             <Card.Body>
