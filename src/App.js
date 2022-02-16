@@ -18,7 +18,7 @@ function App() {
           <Link to="/contact"> Profile </Link>
         </nav> */}
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" exact element={<Home />} />
           <Route path="/project" element={<Project /> } />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<ErrorPage />} />
