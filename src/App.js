@@ -18,7 +18,7 @@ function App() {
           <Link to="/contact"> Profile </Link>
         </nav> */}
         <Routes>
-          <Route path="/" exact element={<Home />} />
+          <Route path="/Brian-GitHub-Page" exact element={<Home />} />
           <Route path="/project" element={<Project /> } />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<ErrorPage />} />
