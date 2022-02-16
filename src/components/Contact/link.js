@@ -7,8 +7,8 @@ export const link = [
     {
      id: 1,
      img: linkin,
-     link: "https://www.linkedin.com/in/shun-fu-chow-aa690a229/",
-     title: 'https://www.linkedin.com/in/shun-fu-chow-aa690a229/',
+     link: "www.linkedin.com/in/brian-chow-shun-fu",
+     title: 'www.linkedin.com/in/brian-chow-shun-fu',
     },
     {
      id: 2,
