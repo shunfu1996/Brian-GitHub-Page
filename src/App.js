@@ -1,9 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-import { Header } from './components/Header/Header';
 import { Home } from './components/intro/Home';
 import { Project } from './components/Project/Project';
 import { Contact } from './components/Contact/Contact';
+import { ErrorPage } from './Error'
+import {BrowserRouter as Router, Routes, Route/* , Link */ } from 'react-router-dom'
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -11,13 +11,25 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Router>
+        {/* <nav>
+          <Link to="/home"> Home </Link>
+          <Link to="/project"> About </Link>
+          <Link to="/contact"> Profile </Link>
+        </nav> */}
+        <Routes>
+          <Route path="/home" element={<Home />} />
+          <Route path="/project" element={<Project /> } />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<ErrorPage />} />
+        </Routes>
+      </Router>
+      {/* <Header />
       <Home />
       <Project />
-      <Contact />
+      <Contact /> */}
       
-      <header className="App-header">
-        <h1>Hello My Name is Brian</h1>
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -30,7 +42,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }

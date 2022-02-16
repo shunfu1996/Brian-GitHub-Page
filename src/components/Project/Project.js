@@ -1,21 +1,30 @@
 import { Row, Col, Card } from "react-bootstrap"
+import { Header } from '../Header/Header';
 import { data } from "./Data"
+
 
 export function Project() {
     return (
-        <>    
-            <h1>My Project</h1>
-            <Row xs={1} md={2} className="g-4">
+        <>   
+            <Header /> 
+            <p className="topic" >My Project</p>
+            <Row xs={2} md={3} className="g-5">
                 {data.map((project) => (
                     <Col>
-                        <Card>
-                            <Card.Img variant="top" src="holder.js/100px160" />
+                        <Card className="card">
+                            <div className="card-img" >
+                                <Card.Img variant="top" src={project.img} className="img" />
+                                <div className="overlay" >
+                                    <a className="show-page" href={project.link} target="_blank" >View Page</a>
+                                    <a className="show-code" href={project.link} target="_blank" >View Code</a>
+                                </div>
+                            </div>
                             <Card.Body>
-                            <Card.Title>Card title</Card.Title>
+                            <Card.Title>{project.title}</Card.Title>
                             <Card.Text>
-                                This is a longer card with supporting text below as a natural
-                                lead-in to additional content. This content is a little bit longer.
+                            {project.text}
                             </Card.Text>
+                            <Card.Footer className="card-lan" >{project.language}</Card.Footer>
                             </Card.Body>
                         </Card>
                     </Col>

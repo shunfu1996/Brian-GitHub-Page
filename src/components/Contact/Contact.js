@@ -1,5 +1,22 @@
+import { Card } from "react-bootstrap"
+import { Header } from '../Header/Header';
+
+
 export function Contact () {
+
     return (
-        <h1>How to contact me</h1>
+        <>
+            <Header />
+            <h1>How to contact me</h1>
+            <Card>
+                <Card.Img variant="top" src="holder.js/100px180" />
+                <Card.Body>
+                <Card.Text>
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                </Card.Text>
+                </Card.Body>
+            </Card>
+        </>
     )
 }

@@ -1,27 +1,68 @@
+*{
+  font-family: 'Lato', sans-serif;
+}
+
+.home-text{
+  font-size: 48px !important;
+  padding-bottom: 180px ;
+}
+
 .App {
   text-align: center;
+  background-color: #1f253d;
+}
+
+.topic {
+  padding: 150px 0px 140px 0px;
+  margin: 0%;
+}
+
+p {
+  color: #ffffff;
+}
+
+h1,h2 {
+  color: #ffffff;
+}
+
+.bar {
+  background-color: #008CBA;
+  margin: 0px 50px 0px 50px !important;
+  border-radius: 5px !important;
+}
+
+.test {
+  color: #ffffff !important;
+}
+
+.intro{
+  width: '18rem'
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 50vmin;
+  width: 50vmin;
   pointer-events: none;
 }
 
+.card {
+  background-color: #50597b !important;
+  border-radius: 5px !important;
+  color: #ffffff;
+  margin: 0px 50px 0px 50px !important;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 5s linear;
+    animation: App-logo-spin infinite 20s linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+  /* min-height: 100vh; */
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* font-size: calc(10px + 2vmin); */
 }
 
 .App-link {
@@ -33,6 +74,54 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(90deg);
+    transform: rotate(360deg);
   }
 }
+
+
+.img{
+  width: 400px;
+}
+
+.card-lan {
+  background-color: #1f253d !important;
+}
+
+.card-img:hover .overlay {
+  opacity: 1;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.show-page {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.show-code {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
