@@ -20,7 +20,7 @@ export const data = [
      img: findAHat,
      code: "https://github.com/shunfu1996/findahat",
      title: 'Find your hat',
-     language: 'Node.js',
+     language: 'JavaScript',
      text: 'Building an interactive terminal game. The scenario is that the player has lost their hat in a field full of holes, and they must navigate back to it without falling down one of the holes or stepping outside of the field.',
     },
     {
@@ -44,7 +44,7 @@ export const data = [
     {
      id: 5,
      img: num,
-     link: "https://github.com/shunfu1996/NUMGuess",
+     link: "https://shunfu1996.github.io/NUMGuess/",
      code: "https://github.com/shunfu1996/NUMGuess",
      title: 'Number guess game',
      language: 'JavaScript',
