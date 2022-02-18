@@ -1,4 +1,5 @@
 import { Container, Row, Col, Figure, Button } from "react-bootstrap"
+import { Header } from '../Header/Header';
 import { useNavigate } from "react-router-dom"
 import Bounce from 'react-reveal/Bounce'
 import Fade from 'react-reveal/Fade'
@@ -13,6 +14,7 @@ export function Home (){
     let navigate = useNavigate();
     return(
         <div className="home-text">  
+            <Header /> 
             <div className="topic">
                 <Bounce  left cascade>
                 <p>Welcome to Brian's github page</p>
