@@ -28,7 +28,6 @@ export function Home (){
                                 <Figure.Image
                                     width={400}
                                     height={400}
-                                    alt="171x180"
                                     src={icon}
                                 />
                             </Fade>

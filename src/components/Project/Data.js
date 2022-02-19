@@ -4,6 +4,7 @@ import jammming from "./jammming.png"
 import web from "./web.png"
 import num from "./num.png"
 import door from "./door.png"
+import cssLearning from "./css-learning.png"
 
 export const data = [
     {
@@ -58,5 +59,14 @@ export const data = [
      title: 'Door guess game',
      language: 'JavaScript',
      text: 'Construct a single-page website that plays a fully-functional game. You will see how HTML, CSS, and JavaScript interact harmoniously to produce a dynamic website.' ,
+    },
+    {
+     id: 7,
+     img: cssLearning,
+     link: "https://shunfu1996.github.io/CSS-9DotsMenu/",
+     code: "https://github.com/shunfu1996/CSS-9DotsMenu",
+     title: 'Nine Dots Menu',
+     language: 'CSS',
+     text: "Learning css's transition transform filter" ,
     },
    ];

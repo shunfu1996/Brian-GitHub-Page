@@ -4,7 +4,7 @@ export function Header () {
     let navigate = useNavigate();
     return(
         <>  
-            <Nav variant="pills" defaultActiveKey="/home" className='bar'>
+            <Nav className='bar'>
                 <Nav.Item>
                     <Nav.Link onClick={() => {navigate("/Brian-GitHub-Page");}} className="test" > Home</Nav.Link>
                 </Nav.Item>
