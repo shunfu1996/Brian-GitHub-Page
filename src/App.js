@@ -11,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename='/Brian-GitHub-Page/'>
         {/* <nav>
           <Link to="/home"> Home </Link>
           <Link to="/project"> About </Link>
