@@ -11,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-      <Router basename={process.env.PUBLIC_URL} >
+      <Router basename='/' >
         {/* <nav>
           <Link to="/home"> Home </Link>
           <Link to="/project"> About </Link>
