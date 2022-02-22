@@ -6,7 +6,7 @@ export function Header () {
         <>  
             <Nav className='bar'>
                 <Nav.Item>
-                    <Nav.Link onClick={() => {navigate("/Brian-GitHub-Page");}} className="test" > Home</Nav.Link>
+                    <Nav.Link onClick={() => {navigate("/");}} className="test" > Home</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link onClick={() => {navigate("/project");}} className="test" >My project</Nav.Link>

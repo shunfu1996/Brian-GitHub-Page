@@ -11,14 +11,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-      <Router basename='/' >
+      <Router basename='/Brian-GitHub-Page' >
         {/* <nav>
           <Link to="/home"> Home </Link>
           <Link to="/project"> About </Link>
           <Link to="/contact"> Profile </Link>
         </nav> */}
         <Routes>
-          <Route path="/Brian-GitHub-Page" exact element={<Home />} />
+          <Route path="/" exact element={<Home />} />
           <Route path="/project" element={<Project /> } />
           <Route path="/contact" element={<Contact />} />
           {/* <Route path="*" element={<ErrorPage />} /> */}
