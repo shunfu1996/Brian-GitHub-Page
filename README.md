@@ -1,4 +1,4 @@
-# live page: https://shunfu1996.github.io/Brian-GitHub-Page/
+# live page: https://shunfu1996.github.io/Brian-GitHub-Page/Brian-GitHub-Page
 
 
 # Getting Started with Create React App
