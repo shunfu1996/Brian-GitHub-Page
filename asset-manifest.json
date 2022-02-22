@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Brian-GitHub-Page/static/css/main.68a6f8ce.css",
-    "main.js": "/Brian-GitHub-Page/static/js/main.68df2d95.js",
+    "main.js": "/Brian-GitHub-Page/static/js/main.6032e941.js",
     "static/js/787.b3e4e704.chunk.js": "/Brian-GitHub-Page/static/js/787.b3e4e704.chunk.js",
     "static/media/web.png": "/Brian-GitHub-Page/static/media/web.e7cb3a98a8b189b6695f.png",
     "static/media/jammming.png": "/Brian-GitHub-Page/static/media/jammming.9271058f446351ee1142.png",
@@ -16,11 +16,11 @@
     "static/media/logo.svg": "/Brian-GitHub-Page/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Brian-GitHub-Page/index.html",
     "main.68a6f8ce.css.map": "/Brian-GitHub-Page/static/css/main.68a6f8ce.css.map",
-    "main.68df2d95.js.map": "/Brian-GitHub-Page/static/js/main.68df2d95.js.map",
+    "main.6032e941.js.map": "/Brian-GitHub-Page/static/js/main.6032e941.js.map",
     "787.b3e4e704.chunk.js.map": "/Brian-GitHub-Page/static/js/787.b3e4e704.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.68a6f8ce.css",
-    "static/js/main.68df2d95.js"
+    "static/js/main.6032e941.js"
   ]
 }
