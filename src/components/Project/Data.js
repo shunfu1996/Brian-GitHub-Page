@@ -5,6 +5,7 @@ import web from "./web.png"
 import num from "./num.png"
 import door from "./door.png"
 import cssLearning from "./css-learning.png"
+import repo from "./myrepo.png"
 
 export const data = [
     {
@@ -69,4 +70,12 @@ export const data = [
      language: 'CSS',
      text: "Learning css's transition transform filter" ,
     },
+    {
+     id: 8,
+     img: repo,
+     link: "https://github.com/shunfu1996?tab=repositories",
+     title: 'see more progress project',
+     language: 'github repositories',
+    },
+
    ];

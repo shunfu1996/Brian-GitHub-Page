@@ -17,7 +17,7 @@ export function Project() {
                                 <div className="overlay" >
                                     { project.link?<a className="show-page" href={project.link} rel="noreferrer" target="_blank" >View Page</a>:
                                     <a className="show-page disabled" href={project.link} rel="noreferrer" target="_blank" >View Page</a>}
-                                    <a className="show-code" href={project.code} rel="noreferrer" target="_blank" >View Code</a>
+                                    <a className={project.code?"show-code":"show-code disabled"} href={project.code} rel="noreferrer" target="_blank" >View Code</a>
                                 </div>
                             </div>
                             <Card.Body>
