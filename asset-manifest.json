@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Brian-GitHub-Page/static/css/main.46fda323.css",
-    "main.js": "/Brian-GitHub-Page/static/js/main.908234f2.js",
+    "main.js": "/Brian-GitHub-Page/static/js/main.c343c835.js",
     "static/js/787.b3e4e704.chunk.js": "/Brian-GitHub-Page/static/js/787.b3e4e704.chunk.js",
     "static/media/web.png": "/Brian-GitHub-Page/static/media/web.e7cb3a98a8b189b6695f.png",
     "static/media/jammming.png": "/Brian-GitHub-Page/static/media/jammming.9271058f446351ee1142.png",
@@ -10,17 +10,18 @@
     "static/media/findahat.png": "/Brian-GitHub-Page/static/media/findahat.8e878262810739d38a4c.png",
     "static/media/todolist.png": "/Brian-GitHub-Page/static/media/todolist.42f55e12b6d5230dbfb8.png",
     "static/media/door.png": "/Brian-GitHub-Page/static/media/door.a13df5447631d70446e4.png",
+    "static/media/todolistV2.png": "/Brian-GitHub-Page/static/media/todolistV2.3b9cf9682128a38ff058.png",
     "static/media/GitHub.png": "/Brian-GitHub-Page/static/media/GitHub.1b6bd0e4b6626baba753.png",
     "static/media/coding.png": "/Brian-GitHub-Page/static/media/coding.ad02d63870968fd4d1e7.png",
     "static/media/css-learning.png": "/Brian-GitHub-Page/static/media/css-learning.2600d2e98167ac781746.png",
     "static/media/logo.svg": "/Brian-GitHub-Page/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Brian-GitHub-Page/index.html",
     "main.46fda323.css.map": "/Brian-GitHub-Page/static/css/main.46fda323.css.map",
-    "main.908234f2.js.map": "/Brian-GitHub-Page/static/js/main.908234f2.js.map",
+    "main.c343c835.js.map": "/Brian-GitHub-Page/static/js/main.c343c835.js.map",
     "787.b3e4e704.chunk.js.map": "/Brian-GitHub-Page/static/js/787.b3e4e704.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.46fda323.css",
-    "static/js/main.908234f2.js"
+    "static/js/main.c343c835.js"
   ]
 }
