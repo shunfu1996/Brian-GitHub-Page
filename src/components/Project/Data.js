@@ -5,6 +5,7 @@ import web from "./web.png"
 import num from "./num.png"
 import door from "./door.png"
 import cssLearning from "./css-learning.png"
+import todolistv2 from "./todolistV2.png"
 import repo from "./myrepo.png"
 
 export const data = [
@@ -72,6 +73,15 @@ export const data = [
     },
     {
      id: 8,
+     img: todolistv2,
+     link: "https://shunfu1996.github.io/todolist-Brian/",
+     code: "https://github.com/shunfu1996/todolist-Brian",
+     title: 'To Do list version 2',
+     language: 'React CSS',
+     text: "Practice Make Perfect" ,
+    },
+    {
+     id: 9,
      img: repo,
      link: "https://github.com/shunfu1996?tab=repositories",
      title: 'see more progress project',
